@@ -1,0 +1,287 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mysql',
+1 verbose cli   'bcryptjs' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mysql
+8 silly fetchPackageMetaData bcryptjs
+9 silly fetchNamedPackageData mysql
+10 silly mapToRegistry name mysql
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/mysql
+14 silly fetchNamedPackageData bcryptjs
+15 silly mapToRegistry name bcryptjs
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+19 verbose request uri https://registry.npmjs.org/mysql
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 20:00:46
+22 verbose request id b6439d7fb7a2db31
+23 http request GET https://registry.npmjs.org/mysql
+24 verbose request uri https://registry.npmjs.org/bcryptjs
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 20:00:46
+27 http request GET https://registry.npmjs.org/bcryptjs
+28 http 200 https://registry.npmjs.org/bcryptjs
+29 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   etag: '"9RHDLFETRVCMIRIBL1YTHSAL3"',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=300',
+29 verbose headers   'content-length': '50933',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   date: 'Wed, 09 Mar 2016 09:00:35 GMT',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '283',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'x-served-by': 'cache-syd1621-SYD',
+29 verbose headers   'x-cache': 'HIT',
+29 verbose headers   'x-cache-hits': '2',
+29 verbose headers   'x-timer': 'S1457514035.831084,VS0,VE0',
+29 verbose headers   vary: 'Accept' }
+30 silly get cb [ 200,
+30 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly get     etag: '"9RHDLFETRVCMIRIBL1YTHSAL3"',
+30 silly get     'content-type': 'application/json',
+30 silly get     'cache-control': 'max-age=300',
+30 silly get     'content-length': '50933',
+30 silly get     'accept-ranges': 'bytes',
+30 silly get     date: 'Wed, 09 Mar 2016 09:00:35 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     age: '283',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-syd1621-SYD',
+30 silly get     'x-cache': 'HIT',
+30 silly get     'x-cache-hits': '2',
+30 silly get     'x-timer': 'S1457514035.831084,VS0,VE0',
+30 silly get     vary: 'Accept' } ]
+31 verbose get saving bcryptjs to /home/home_dir/.npm/registry.npmjs.org/bcryptjs/.cache.json
+32 verbose correctMkdir /home/home_dir/.npm correctMkdir not in flight; initializing
+33 verbose makeDirectory /home/home_dir/.npm creation not in flight; initializing
+34 silly makeDirectory /home/home_dir/.npm uid: 22671 gid: 33
+35 http 200 https://registry.npmjs.org/mysql
+36 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 verbose headers   etag: '"3F2Q19EGQFKWO6PHYGLT59GPC"',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '124080',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Wed, 09 Mar 2016 09:00:36 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   age: '0',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-syd1621-SYD',
+36 verbose headers   'x-cache': 'HIT',
+36 verbose headers   'x-cache-hits': '1',
+36 verbose headers   'x-timer': 'S1457514035.831807,VS0,VE181',
+36 verbose headers   vary: 'Accept' }
+37 silly get cb [ 200,
+37 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+37 silly get     etag: '"3F2Q19EGQFKWO6PHYGLT59GPC"',
+37 silly get     'content-type': 'application/json',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     'content-length': '124080',
+37 silly get     'accept-ranges': 'bytes',
+37 silly get     date: 'Wed, 09 Mar 2016 09:00:36 GMT',
+37 silly get     via: '1.1 varnish',
+37 silly get     age: '0',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-served-by': 'cache-syd1621-SYD',
+37 silly get     'x-cache': 'HIT',
+37 silly get     'x-cache-hits': '1',
+37 silly get     'x-timer': 'S1457514035.831807,VS0,VE181',
+37 silly get     vary: 'Accept' } ]
+38 verbose get saving mysql to /home/home_dir/.npm/registry.npmjs.org/mysql/.cache.json
+39 verbose correctMkdir /home/home_dir/.npm correctMkdir not in flight; initializing
+40 silly install normalizeTree
+41 silly loadCurrentTree Finishing
+42 silly loadIdealTree Starting
+43 silly install loadIdealTree
+44 silly cloneCurrentTree Starting
+45 silly install cloneCurrentTreeToIdealTree
+46 silly cloneCurrentTree Finishing
+47 silly loadShrinkwrap Starting
+48 silly install loadShrinkwrap
+49 silly loadShrinkwrap Finishing
+50 silly loadAllDepsIntoIdealTree Starting
+51 silly install loadAllDepsIntoIdealTree
+52 silly resolveWithNewModule bcryptjs@2.3.0 checking installable status
+53 silly cache add args [ 'bcryptjs', null ]
+54 verbose cache add spec bcryptjs
+55 silly resolveWithNewModule mysql@2.10.2 checking installable status
+56 silly cache add args [ 'mysql', null ]
+57 verbose cache add spec mysql
+58 silly cache add parsed spec Result {
+58 silly cache add   raw: 'bcryptjs',
+58 silly cache add   scope: null,
+58 silly cache add   name: 'bcryptjs',
+58 silly cache add   rawSpec: '',
+58 silly cache add   spec: 'latest',
+58 silly cache add   type: 'tag' }
+59 silly addNamed bcryptjs@latest
+60 verbose addNamed "latest" is being treated as a dist-tag for bcryptjs
+61 info addNameTag [ 'bcryptjs', 'latest' ]
+62 silly mapToRegistry name bcryptjs
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+66 verbose addNameTag registry:https://registry.npmjs.org/bcryptjs not in flight; fetching
+67 silly cache add parsed spec Result {
+67 silly cache add   raw: 'mysql',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'mysql',
+67 silly cache add   rawSpec: '',
+67 silly cache add   spec: 'latest',
+67 silly cache add   type: 'tag' }
+68 silly addNamed mysql@latest
+69 verbose addNamed "latest" is being treated as a dist-tag for mysql
+70 info addNameTag [ 'mysql', 'latest' ]
+71 silly mapToRegistry name mysql
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/mysql
+75 verbose addNameTag registry:https://registry.npmjs.org/mysql not in flight; fetching
+76 verbose request uri https://registry.npmjs.org/bcryptjs
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 20:00:46
+79 http request GET https://registry.npmjs.org/bcryptjs
+80 verbose request uri https://registry.npmjs.org/mysql
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 20:00:46
+83 http request GET https://registry.npmjs.org/mysql
+84 http 200 https://registry.npmjs.org/bcryptjs
+85 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+85 verbose headers   etag: '"9RHDLFETRVCMIRIBL1YTHSAL3"',
+85 verbose headers   'content-type': 'application/json',
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   'content-length': '50933',
+85 verbose headers   'accept-ranges': 'bytes',
+85 verbose headers   date: 'Wed, 09 Mar 2016 09:00:36 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   age: '283',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-syd1626-SYD',
+85 verbose headers   'x-cache': 'HIT',
+85 verbose headers   'x-cache-hits': '1',
+85 verbose headers   'x-timer': 'S1457514036.053783,VS0,VE0',
+85 verbose headers   vary: 'Accept' }
+86 silly get cb [ 200,
+86 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+86 silly get     etag: '"9RHDLFETRVCMIRIBL1YTHSAL3"',
+86 silly get     'content-type': 'application/json',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     'content-length': '50933',
+86 silly get     'accept-ranges': 'bytes',
+86 silly get     date: 'Wed, 09 Mar 2016 09:00:36 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     age: '283',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-syd1626-SYD',
+86 silly get     'x-cache': 'HIT',
+86 silly get     'x-cache-hits': '1',
+86 silly get     'x-timer': 'S1457514036.053783,VS0,VE0',
+86 silly get     vary: 'Accept' } ]
+87 verbose get saving bcryptjs to /home/home_dir/.npm/registry.npmjs.org/bcryptjs/.cache.json
+88 verbose correctMkdir /home/home_dir/.npm correctMkdir not in flight; initializing
+89 silly addNameTag next cb for bcryptjs with tag latest
+90 silly addNamed bcryptjs@2.3.0
+91 verbose addNamed "2.3.0" is a plain semver version for bcryptjs
+92 silly mapToRegistry name bcryptjs
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+96 verbose addRemoteTarball https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.3.0.tgz not in flight; adding
+97 verbose addRemoteTarball [ 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.3.0.tgz',
+97 verbose addRemoteTarball   '5826900cfef7abaf3425c72e4d464de509b8c2ec' ]
+98 http 200 https://registry.npmjs.org/mysql
+99 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+99 verbose headers   etag: '"3F2Q19EGQFKWO6PHYGLT59GPC"',
+99 verbose headers   'content-type': 'application/json',
+99 verbose headers   'cache-control': 'max-age=300',
+99 verbose headers   'content-length': '124080',
+99 verbose headers   'accept-ranges': 'bytes',
+99 verbose headers   date: 'Wed, 09 Mar 2016 09:00:36 GMT',
+99 verbose headers   via: '1.1 varnish',
+99 verbose headers   age: '0',
+99 verbose headers   connection: 'keep-alive',
+99 verbose headers   'x-served-by': 'cache-syd1627-SYD',
+99 verbose headers   'x-cache': 'HIT',
+99 verbose headers   'x-cache-hits': '1',
+99 verbose headers   'x-timer': 'S1457514036.056861,VS0,VE0',
+99 verbose headers   vary: 'Accept' }
+100 silly get cb [ 200,
+100 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+100 silly get     etag: '"3F2Q19EGQFKWO6PHYGLT59GPC"',
+100 silly get     'content-type': 'application/json',
+100 silly get     'cache-control': 'max-age=300',
+100 silly get     'content-length': '124080',
+100 silly get     'accept-ranges': 'bytes',
+100 silly get     date: 'Wed, 09 Mar 2016 09:00:36 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     age: '0',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-syd1627-SYD',
+100 silly get     'x-cache': 'HIT',
+100 silly get     'x-cache-hits': '1',
+100 silly get     'x-timer': 'S1457514036.056861,VS0,VE0',
+100 silly get     vary: 'Accept' } ]
+101 verbose get saving mysql to /home/home_dir/.npm/registry.npmjs.org/mysql/.cache.json
+102 verbose correctMkdir /home/home_dir/.npm correctMkdir not in flight; initializing
+103 silly addNameTag next cb for mysql with tag latest
+104 silly addNamed mysql@2.10.2
+105 verbose addNamed "2.10.2" is a plain semver version for mysql
+106 silly mapToRegistry name mysql
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/mysql
+110 verbose addRemoteTarball https://registry.npmjs.org/mysql/-/mysql-2.10.2.tgz not in flight; adding
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/mysql/-/mysql-2.10.2.tgz',
+111 verbose addRemoteTarball   '9ee5e46f056b2ba3a7840a10eae3426f59384292' ]
+112 info retry fetch attempt 1 at 20:00:46
+113 info attempt registry request try #1 at 20:00:46
+114 http fetch GET https://registry.npmjs.org/mysql/-/mysql-2.10.2.tgz
+115 info retry fetch attempt 1 at 20:00:46
+116 info attempt registry request try #1 at 20:00:46
+117 http fetch GET https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.3.0.tgz
+118 http fetch 200 https://registry.npmjs.org/mysql/-/mysql-2.10.2.tgz
+119 http fetch 200 https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.3.0.tgz
+120 silly fetchAndShaCheck shasum 5826900cfef7abaf3425c72e4d464de509b8c2ec
+121 silly fetchAndShaCheck shasum 9ee5e46f056b2ba3a7840a10eae3426f59384292
+122 verbose addTmpTarball /tmp/npm-9615-378a4ab8/registry.npmjs.org/bcryptjs/-/bcryptjs-2.3.0.tgz not in flight; adding
+123 verbose addTmpTarball already have metadata; skipping unpack for bcryptjs@2.3.0
+124 verbose correctMkdir /home/home_dir/.npm correctMkdir not in flight; initializing
+125 verbose addTmpTarball /tmp/npm-9615-378a4ab8/registry.npmjs.org/mysql/-/mysql-2.10.2.tgz not in flight; adding
+126 verbose addTmpTarball already have metadata; skipping unpack for mysql@2.10.2
+127 verbose correctMkdir /home/home_dir/.npm correctMkdir not in flight; initializing
+128 silly rollbackFailedOptional Starting
+129 silly rollbackFailedOptional Finishing
+130 silly runTopLevelLifecycles Starting
+131 silly runTopLevelLifecycles Finishing
+132 silly install printInstalled
+133 verbose stack Error: EACCES: permission denied, mkdir '/home/home_dir/.npm'
+133 verbose stack     at Error (native)
+134 verbose cwd /home/fs/git/blueprints/engines/o_sjs/2.72a/o_sjs
+135 error Linux 3.13.0-74-generic
+136 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "mysql" "bcryptjs"
+137 error node v5.7.0
+138 error npm  v3.6.0
+139 error path /home/home_dir/.npm
+140 error code EACCES
+141 error errno -13
+142 error syscall mkdir
+143 error Error: EACCES: permission denied, mkdir '/home/home_dir/.npm'
+143 error     at Error (native)
+143 error  { [Error: EACCES: permission denied, mkdir '/home/home_dir/.npm']
+143 error   errno: -13,
+143 error   code: 'EACCES',
+143 error   syscall: 'mkdir',
+143 error   path: '/home/home_dir/.npm' }
+144 error Please try running this command again as root/Administrator.
+145 verbose exit [ -13, true ]
